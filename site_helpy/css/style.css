@@ -1,3 +1,4 @@
+
 div{
     background-color: black;
     height: 171;
@@ -37,4 +38,13 @@ input{
 
 legend{
     text-align: center;
+}
+.participante h2, .participante p {
+    color: #FFFFFF; /* Altere para a cor que você deseja */
+    
+}
+
+.participante img {
+    width: 200px; /* Ajuste para o tamanho desejado */
+    height: auto;
 }

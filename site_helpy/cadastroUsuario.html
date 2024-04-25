@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro do Usuário</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-    <div>
+    <div class="header">
         <h1>HELPY SEGUROS</h1>
-        
     </div>
 
-
     <h2>Cadastro do Usuário</h2>
-    <hr size="4" color="black">
-    <form action="Cadastrar" method="get">
+    <hr style="border: none; border-top: 1px solid black;">
 
+    <form action="Cadastrar" method="get" class="form">
         <fieldset>
             <legend>Dados pessoais</legend>
     
@@ -37,11 +37,13 @@
 
         <hr size="4" color="black">
 
-
-          
-        <input type="submit" value="Enviar"> | <input type="reset" value="Limpar"> | <a href="cadastroVeiculo.html">Cadastro de Veículo</a>
-
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
     </form>
+
+    <a href="cadastroVeiculo.html" class="cadastro">Cadastro de Veículo</a>
+
+    <div class="footer"></div>
 
 </body>
 </html>

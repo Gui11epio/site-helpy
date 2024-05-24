@@ -1,11 +1,14 @@
 
 div{
-    background-color: black;
+    background-color: #5e5a5a;
     height: 171;
     width: 1440;
 }
 
-
+.sec{
+    grid-area: 'sec';
+    background-color: white;
+}   
 /*.cadastro{
     position: absolute;
     color: #CE66FF;
@@ -15,7 +18,7 @@ div{
 }*/
 
 h1{
-    color: #CE66FF;
+    color: #42bcec;
     
     font-style: italic;
 }
@@ -29,7 +32,7 @@ p{
 }
 
 .ba{
-    background-color: #CE66FF;
+    background-color: #66e0ff;
 }
 
 input{
@@ -47,4 +50,11 @@ legend{
 .participante img {
     width: 200px; /* Ajuste para o tamanho desejado */
     height: auto;
+}
+
+@media screen and (max-width: 980px) {
+   .sec{
+    display: grid;
+    
+   }
 }

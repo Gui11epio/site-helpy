@@ -6,7 +6,7 @@
     <title>Cadastro do Veículo</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css_cadastro/style3.css">
 </head>
 <body>
     <div class="header">
@@ -14,10 +14,10 @@
     </div>
 
     <h2>Cadastro do Veículo</h2>
-    <hr style="border: 1px solid black;">
+    <hr style="border: 1px solid gray;">
 
     <form action="Cadastrar" method="get" class="form">
-
+    <section id="sec1">
         <fieldset>
             <legend>Dados do veículo</legend>
     
@@ -30,7 +30,9 @@
             <label for="idplaca">Placa do veículo: </label>
             <input type="text" name="placa" id="idplaca" required> <br>
         </fieldset>
+    </section>
 
+    <section id="sec2">
         <fieldset>
             <legend>Tipo do Veículo</legend>
 
@@ -43,16 +45,19 @@
             <input type="radio" name="Tipo" id="idcaminhão">
             <label for="idcaminhão">Caminhão</label>
         </fieldset>
+    </section>
 
         <br>
 
-        <hr style="border: none; border-top: 1px solid black;">
+        <hr style="border: none; border-top: 1px solid gray;">
 
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
     </form>
+    
+    <a href="cadastroUsuario.html"  class="Cadastro">Pagina principal</a>
 
-    <div class="footer"></div>
+    <footer></footer>
 
 </body>
 </html>

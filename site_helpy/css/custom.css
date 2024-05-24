@@ -7,12 +7,12 @@ body {
     align-items: center;
 }
 .cadastro {
-    color: #CE66FF; 
+    color: #59c3f5; 
 }
 .ba {
     position: fixed;
     bottom: 0;
-    background-color: #CE66FF; 
+    background-color: #66c2ff; 
     height: 50px; 
     width: 100%;
 }
